@@ -10,7 +10,7 @@ function About() {
             
             <div style={{textAlign: "center", paddingTop: "100px"}}>
                 <p ><b>ABOUT US</b></p>
-                <p ><b>HISTORY AND TRADITION <br/>OF OUR WINES</b></p>
+                <p ><b>HISTORY AND TRADITION <br/>OF OUR CHOCOLATES</b></p>
                      
                 
                 

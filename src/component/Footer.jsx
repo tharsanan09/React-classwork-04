@@ -29,10 +29,10 @@ function Footer() {
 
                 <div>
                     <p className="text-4xl"><b>Our Products</b></p>
-                    <p className="text-2xl">Red Wine</p>
-                    <p className="text-2xl">White Wine</p>
-                    <p className="text-2xl">Sparkling wine</p>
-                    <p className="text-2xl">Rose Wine</p>
+                    <p className="text-2xl">Dairy Milk</p>
+                    <p className="text-2xl">Snickers</p>
+                    <p className="text-2xl">Dark Choco</p>
+                    <p className="text-2xl">Kit Kat</p>
                 </div>
 
             </div>
