@@ -3,13 +3,13 @@ function Footer() {
     <>
     <section id="contact">
         <footer>
-            <div className="text-white bg-green-800" style={{display: "flex", gap:"100px", height: "200px", paddingTop: "40px",backgroundColor:"lightpink"}}><br/>
+            <div className="text-white bg-green-800" style={{display: "flex", gap:"100px", height: "200px", paddingTop: "40px",backgroundColor:"coral", color: "white"}}><br/>
                 
                 <div>
-                    <p className="text-4xl"><b>Wines</b></p>
+                    <p className="text-4xl"><b>Choco</b></p>
                     <p className="text-2xl">Stanly Road, Jaffna.<br/>Srilanka</p>
                     <p className="text-2xl">0771234567</p>
-                    <p className="text-2xl">Wine@store.com</p>
+                    <p className="text-2xl">Choco@store.com</p>
 
                 </div>
 
@@ -17,7 +17,7 @@ function Footer() {
                     <p className="text-4xl"><b>Contact Details</b></p>
                     <p className="text-2xl">Stanly Road, Jaffna.<br/>Srilanka</p>
                     <p className="text-2xl">0771234567</p>
-                    <p className="text-2xl">Wine@store.com</p>
+                    <p className="text-2xl">Choco@store.com</p>
                 </div>
                 <div>
                     <p className="text-4xl"><b>Quick Links</b></p>
@@ -26,6 +26,7 @@ function Footer() {
                     <p className="text-2xl">Other Shopes</p>
                     <p className="text-2xl">Terms & Conditions</p>
                 </div>
+
                 <div>
                     <p className="text-4xl"><b>Our Products</b></p>
                     <p className="text-2xl">Red Wine</p>
@@ -48,6 +49,7 @@ function Footer() {
                 <p className="text-2xl">Privicy Policy</p>
             </div>
         </div>
+        <hr />
     </section>
     </>
   );

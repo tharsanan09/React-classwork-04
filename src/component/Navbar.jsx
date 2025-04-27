@@ -1,25 +1,25 @@
-import Home from "../page/Home";
-import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
+function Navbar() {
+    return (
+        <nav className="navbar" aria-label="Main Navigation">
+            <Link to="/" className="logo" aria-label="Homepage">
+                Choco
+            </Link>
 
-function Navbar (){
-
-    return(
-        <>
-        <nav>
-            <div style={{ display:"flex", backgroundColor:"lightpink", height:"60px", width:"100%" }} >
-            <img style={{ height:"30px",width:"45px", marginTop:"10px", marginLeft:"20px"}} src="./src/assets/choco.jpg" alt="logo" />
-            
-            <ul style={{marginLeft:"700px", display:"flex"}}>
-                <li><a href="/">Home</a></li>
-                <li><a href="/contact">Contact</a></li>
-                </ul>
-                </div>
+            <ul className="nav-links">
+                <li>
+                    <Link to="/" aria-label="Home Page">Home</Link>
+                </li>
+                <li>
+                    <Link to="/Contact" aria-label="Contact Page">Contact</Link>
+                </li>
+                <li>
+                    <Link to="/About" aria-label="About Page">About</Link>
+                </li>
+            </ul>
         </nav>
-
-        </>
-
-    )
-
+    );
 }
+
 export default Navbar;
